@@ -1,0 +1,13 @@
+<c3p0-config>
+  <named-config name="demo">
+    <property name="user">postgres</property>
+    <property name="password">admin</property>
+    <property name="driverClass">org.postgresql.Driver</property>
+    <property name="jdbcUrl">jdbc:postgresql://localhost:5432/demo</property>
+    <property name="testConnectionOnCheckin">true</property>
+    <property name="initialPoolSize">10</property>
+    <property name="maxIdleTime">30</property>
+    <property name="maxPoolSize">100</property>
+    <property name="minPoolSize">10</property>
+  </named-config>
+</c3p0-config>
